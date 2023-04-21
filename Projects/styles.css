@@ -1,0 +1,9 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
