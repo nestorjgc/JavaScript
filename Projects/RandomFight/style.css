@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+  margin:0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  width: 50%;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  background: url('./img/bgworld.jpg');
+}
+
+.wow-bg{
+  display: flex;
+    margin: 0 auto;
+    width: 15%;
+}
+
+h2{
+  text-align: center;
+  color: #fff;
+}
+
+#container{
+  margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#container2{
+      margin: 0 auto;
+}
+
+#race1, #health1 {
+  text-align: left;
+  
+  color: #2dd8ff;
+}
+#race2, #health2 {
+  text-align: right;
+  color: #b4e565;
+}
+h1{
+  text-align: center;
+}
+
+.character-image{
+  margin: 0 auto;
+}
+
+#ability1, #health1 {
+  text-align: left;
+}
+#ability2, #health2 {
+  text-align: right;
+}
+
+h3{
+  text-align: center;
+  margin-top: 3%;
+}
+
+p {
+text-align: center;
+    background: beige;
+    padding: 2%;
+    border-radius: 52px;
+    margin-top: 1%;
+    width: 84%;
+    margin: 3% auto;
+}
+
+.green{
+  color: green;
+}
+
+.blue{
+  color: blue;
+}
+
+.green-health{
+  padding: 1%;
+  color: green;
+}
+.green-blue{
+  padding: 1%;
+  color: blue;
+}
+
+.red-dmg{
+  color: red;
+}
+
+button {
+      margin: 0 auto;
+    display: flex;
+    border: none;
+    padding: 1%;
+    background: #ef9595;
+    color: black;
+    border-radius: 9px;
+    font-weight: bold;
+}
+
+button:hover {
+cursor: pointer;
+    opacity: 0.6;
+    transition: cubic-bezier(0.4, 0, 1, 1) 0.3s;
+}
+
+
+
+footer {
+  margin-top: 2%;
+    background-color: #303c42;
+}
+.text-light {
+    color: #fbfbfb!important;
+}
+.text-center {
+    text-align: center!important;
+}
+.p-3 {
+    padding: 1rem!important;
+}
+
+img {
+      vertical-align: middle;
+}
+
+.gif-wow{
+  margin: 3% auto;
+    border-radius: 46px;
+    display: flex;
+}
