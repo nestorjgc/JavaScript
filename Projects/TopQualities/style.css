@@ -1,0 +1,122 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  background-image: url("https://images.pexels.com/photos/1298684/pexels-photo-1298684.jpeg?auto=compress&cs=tinysrgb&w=1600");
+  background-size: cover;
+  
+}
+
+h1, pre, h2, small {
+  text-align: center;
+  justify-content: center;
+    display: flex;
+}
+
+p{
+    background: #ffffc1;
+    color: black;
+    padding: 2%;
+    border-radius: 20px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+button{
+background: #1d73bf;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 1%;
+    border-radius: 10px;
+}
+button:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+
+small {
+  background: white;
+    padding: 1%;
+    color: red;
+    font-size: 15px;
+}
+
+.hello-user-h3{
+  background: white;
+    padding: 2%;
+    color: black;
+    width: 50%;
+    margin: 2% auto;
+}
+
+.qualities {
+color: white;
+    border-radius: 35px;
+    text-align: center;
+    height: 600px;
+  width: 100%;
+    margin: 2% auto;
+  display: flex;
+}
+
+.container1{
+  width: 33.3%;
+    height: 500px;
+    background-image: url(https://images.pexels.com/photos/1005456/pexels-photo-1005456.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    display: flex;
+}
+
+.container2{
+width: 33.3%;
+    height: 500px;
+    background: black;
+    border-radius: 30px;
+    padding: 1%;
+}
+
+.container3{
+  background-image: url(https://images.pexels.com/photos/1556796/pexels-photo-1556796.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    width: 33.3%;
+    height: 587px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    display: flex;
+}
+
+.qualityConfirm{
+justify-content: center;
+    background: white;
+    padding: 1%;
+    color: red;
+    font-size: 15px;
+    margin-top: 1%;
+}
+
+.delete-button {
+    background: red;
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+    
+}
+
+span:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
